@@ -13,5 +13,5 @@
 4. end 2 end testing ✅ 
    1. When we connect, we see the form
    2. when wallet is disconnected, we do not
-5. Deploy to Fleek
+5. Deploy to ~~Fleek~~ Vercel
 

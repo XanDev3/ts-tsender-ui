@@ -1,6 +1,6 @@
+'use client';
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { FaGithub } from "react-icons/fa";
-import Image from "next/image";
 
 export default function Header() {
     return (

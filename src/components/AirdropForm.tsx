@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { useState, useMemo, useEffect } from "react";
 import InputField from "@/components/ui/InputField";
 import { chainsToTSender, tsenderAbi, erc20Abi } from "@/constants";

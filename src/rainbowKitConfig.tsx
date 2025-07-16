@@ -1,5 +1,4 @@
-"use client"
-
+'use client';
 import { getDefaultConfig } from "@rainbow-me/rainbowkit"
 import { anvil, zksync } from "wagmi/chains"
 
