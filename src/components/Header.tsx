@@ -8,7 +8,7 @@ export default function Header() {
             <div className="flex items-center gap-4">
                 {/* Optional: Add a logo here with <Image /> if you want */}
                 <a
-                    href="https://github.com/xandev3/tsender" // <-- Replace with your repo URL
+                    href="https://github.com/xandev3/ts-tsender-ui" // <-- Replace with your repo URL
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-black text-2xl flex items-center hover:text-gray-700 transition-colors"
