@@ -1,0 +1,9 @@
+# Supply-chain hardening: only install package versions published >= 7 days ago.
+# Delays fresh releases so a compromised-maintainer / worm publish has time to be
+# caught and yanked before it can be installed. Strict mode is auto-enabled when
+# minimumReleaseAge is set explicitly. Requires pnpm >= 10.16 (see packageManager).
+minimumReleaseAge: 10080 # minutes (7 days)
+
+# Bypass the cooldown for specific packages if a critical hotfix is ever needed,
+# e.g. "package-name@1.2.3". Add your own freshly-published scoped packages here.
+minimumReleaseAgeExclude: []
